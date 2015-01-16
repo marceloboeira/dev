@@ -60,50 +60,31 @@ end
 
 def sources
   [
-    {name: 'bh', owner: 'Fullscreen'},
-    {name: 'yt', owner: 'Fullscreen'},
-    {name: 'rspec-api', owner: 'rspec-api'},
-    {name: 'monsters'},
-    {name: 'neverfails'},
-    {name: 'id3_tags', owner: 'ArtistLink', committer: 'topspindev'},
-    {name: 'csswaxer'},
-    {name: 'phdthesis'},
-    {name: 'dotfiles'},
-    {name: 'rails3.github.com', owner: 'rails3'},
-    {name: 'boxoffice'},
-    {name: 'scouts'},
-    {name: 'radiotagmap'},
-    {name: 'django-sortable', owner: 'ff0000'},
-    {name: 'available_twitter_usernames'},
-    {name: 'affinity'},
-    {name: 'ff0000.github.com', owner: 'ff0000'},
-    {name: 'yesradio'},
+    { name: 'core', owner: 'freaktags' },
+    { name: 'blew', owner: 'vimia' },
+    { name: 'blew-cli', owner: 'vimia' },
+    { name: 'alpha-id', owner: 'vimia' },
+    { name: 'jquery-number-suffix', owner: 'vimia' },
+    { name: 'awesome-macosx-dev-tools', owner: 'marceloboeira' },
+    { name: 'marceloboeira.github.io', owner: 'marceloboeira' },
+    { name: 'blog', owner: 'marceloboeira' },
+    { name: 'logisim-7-segment-display-driver', owner: 'marceloboeira' },
+    { name: 'euler-challenges', owner: 'marceloboeira' },
+    { name: 'awesome-git-disciples', owner: 'marceloboeira' },
+    { name: 'arnode', owner: 'marceloboeira' }
   ]
 end
 
 def forks
   [
-    {name: 'rails', owner: 'rails'},
-    {name: 'arel', owner: 'rails' },
-    {name: 'padrino-framework', owner: 'padrino'},
-    {name: 'developer.github.com', owner: 'github'},
-    {name: 'shields', owner: 'badges'},
-    {name: 'jbuilder', owner: 'rails'},
-    {name: 'rspec-expectations', owner: 'rspec'},
-    {name: 'mock_redis', owner: 'causes'},
-    {name: 'AListApart', owner: 'alistapart'},
-    {name: 'rspec_api_documentation', owner: 'zipmark'},
-    {name: 'IMGKit', owner: 'csquared', committer: 'topspindev'},
-    {name: 'website', owner: 'emberjs'},
-    {name: 'startupsanonymous', owner: 'bomatson'},
-    {name: 'rspec-collection_matchers', owner: 'rspec'},
-    {name: 'rails-perftest', owner: 'rails'},
-    {name: 'rails_apps_composer', owner: 'RailsApps'},
-    {name: 'py-github', owner: 'dustin'},
-    {name: 'lettuce', owner: 'gabrielfalcao'},
-    # {name: 'python-github2', owner: 'ask'}, old, only one commit
-    # {name: 'crystallball', owner: 'bomatson'}, old, only one commit
-    # {name: 'jsonloops', owner: 'marak'}, old, only one commit
+    { name: 'training-kit', owner: 'github'},
+    { name: 'errbit', owner:'errbit' },  
+    { name: 'newww', owner: 'npm'},
+    { name: 'robomongo', owner: 'VBelozyorov'},
+    { name: 'MEANS', owner:'SharePointOscar' },
+    { name: 'node-gravatar', owner: 'arnabc'},
+    { name: 'sails-docs', owner: 'balderdashy'},
+    { name: 'we', owner: 'wejs'} 
   ]
 end
 
@@ -112,6 +93,7 @@ def load_repo(repo, login, is_fork=false)
 
   OpenStruct.new(JSON response.body).tap do |r|
     r.title = is_fork ? "#{repo[:owner]}/#{repo[:name]}" : repo[:name]
+    puts repo[:name]
     r.description = repo.fetch(:description, r.description)[0..99]
     unless r.homepage.nil? || r.homepage.empty?
       r.description.gsub! /^(.*?)(\S*?\s*?\S*?\s*?\S*?)$/, %Q(\\1<a href="#{r.homepage}">\\2</a>)
