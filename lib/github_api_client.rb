@@ -79,6 +79,7 @@ def forks
   [
     { name: 'training-kit', owner: 'github'},
     { name: 'errbit', owner:'errbit' },  
+    { name: 'loomio', owner:'loomio' },  
     { name: 'newww', owner: 'npm'},
     { name: 'robomongo', owner: 'VBelozyorov'},
     { name: 'MEANS', owner:'SharePointOscar' },
