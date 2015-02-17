@@ -77,9 +77,12 @@ end
 
 def forks
   [
+    { name: 'catarse_pagarme', owner: 'catarse'},
+    { name: 'catarse', owner: 'catarse'},
     { name: 'training-kit', owner: 'github'},
     { name: 'errbit', owner:'errbit' },  
     { name: 'loomio', owner:'loomio' },  
+    { name: 'hackety-hack.com', owner: 'hacketyhack'},
     { name: 'newww', owner: 'npm'},
     { name: 'robomongo', owner: 'VBelozyorov'},
     { name: 'MEANS', owner:'SharePointOscar' },
