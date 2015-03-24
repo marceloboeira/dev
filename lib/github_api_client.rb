@@ -61,9 +61,9 @@ end
 def sources
   [
     { name: 'core', owner: 'freaktags' },
-    { name: 'blew', owner: 'vimia' },
-    { name: 'blew-cli', owner: 'vimia' },
-    { name: 'alpha-id', owner: 'vimia' },
+    { name: 'blew', owner: 'marceloboeira' },
+    { name: 'blew-cli', owner: 'marceloboeira' },
+    { name: 'alpha-id', owner: 'marceloboeira' },
     { name: 'jquery-number-suffix', owner: 'vimia' },
     { name: 'awesome-macosx-dev-tools', owner: 'marceloboeira' },
     { name: 'marceloboeira.github.io', owner: 'marceloboeira' },
