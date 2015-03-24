@@ -2,7 +2,6 @@ require 'faraday'
 require 'json'
 require 'date'
 require 'ostruct'
-require 'date'
 
 module DateTimeAgo
   def ago
