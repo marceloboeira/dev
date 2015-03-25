@@ -63,7 +63,7 @@ def sources
     { name: 'blew', owner: 'marceloboeira' },
     { name: 'blew-cli', owner: 'marceloboeira' },
     { name: 'alpha-id', owner: 'marceloboeira' },
-    { name: 'jquery-number-suffix', owner: 'vimia' },
+    { name: 'jquery-number-suffix', owner: 'marceloboeira' },
     { name: 'awesome-macosx-dev-tools', owner: 'marceloboeira' },
     { name: 'marceloboeira.github.io', owner: 'marceloboeira' },
     { name: 'blog', owner: 'marceloboeira' },
@@ -88,16 +88,15 @@ def forks
     { name: 'MEANS', owner:'SharePointOscar' },
     { name: 'node-gravatar', owner: 'arnabc'},
     { name: 'sails-docs', owner: 'balderdashy'},
+    { name: 'sails-docs', owner: 'SailsBR'},
     { name: 'we', owner: 'wejs'} 
   ]
 end
 
 def load_repo(repo, login, is_fork=false)
   response = get "/repos/#{repo.fetch(:owner, login)}/#{repo[:name]}"
-
   OpenStruct.new(JSON response.body).tap do |r|
     r.title = is_fork ? "#{repo[:owner]}/#{repo[:name]}" : repo[:name]
-    puts repo[:name]
     r.description = repo.fetch(:description, r.description)[0..99]
     unless r.homepage.nil? || r.homepage.empty?
       r.description.gsub! /^(.*?)(\S*?\s*?\S*?\s*?\S*?)$/, %Q(\\1<a href="#{r.homepage}">\\2</a>)
