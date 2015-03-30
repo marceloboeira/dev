@@ -83,13 +83,14 @@ def forks
     { name: 'loomio', owner:'loomio' },
     { name: 'codetriage', owner:'codetriage' },  
     { name: 'hackety-hack.com', owner: 'hacketyhack'},
+    { name: 'free-for-dev', owner: 'ripienaar'},
     { name: 'newww', owner: 'npm'},
     { name: 'robomongo', owner: 'VBelozyorov'},
     { name: 'MEANS', owner:'SharePointOscar' },
     { name: 'node-gravatar', owner: 'arnabc'},
     { name: 'sails-docs', owner: 'balderdashy'},
     { name: 'sails-docs', owner: 'SailsBR'},
-    { name: 'we', owner: 'wejs'} 
+    { name: 'we', owner: 'wejs'}
   ]
 end
 
