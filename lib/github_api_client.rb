@@ -60,6 +60,7 @@ end
 def sources
   [
     { name: 'core', owner: 'freaktags' },
+    { name: 'core', owner: 'SpreadBlood' },
     { name: 'blew', owner: 'marceloboeira' },
     { name: 'blew-cli', owner: 'marceloboeira' },
     { name: 'alpha-id', owner: 'marceloboeira' },
@@ -78,6 +79,7 @@ def forks
   [
     { name: 'catarse_pagarme', owner: 'catarse'},
     { name: 'catarse', owner: 'catarse'},
+    { name: 'ruler', owner: 'pagarme'},
     { name: 'training-kit', owner: 'github'},
     { name: 'errbit', owner:'errbit' },  
     { name: 'loomio', owner:'loomio' },
