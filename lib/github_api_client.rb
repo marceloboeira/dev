@@ -60,7 +60,6 @@ end
 def sources
   [
     { name: 'core', owner: 'freaktags' },
-    { name: 'core', owner: 'SpreadBlood' },
     { name: 'blew', owner: 'marceloboeira' },
     { name: 'blew-cli', owner: 'marceloboeira' },
     { name: 'alpha-id', owner: 'marceloboeira' }, 
