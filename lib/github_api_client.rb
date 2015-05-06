@@ -63,7 +63,7 @@ def sources
     { name: 'blew', owner: 'marceloboeira' },
     { name: 'blew-cli', owner: 'marceloboeira' },
     { name: 'alpha-id', owner: 'marceloboeira' }, 
-    { name: 'fish', owner: 'core' },
+    { name: 'fish', owner: 'marceloboeira' },
     { name: 'core', owner: 'spreadblood' },
     { name: 'jquery-number-suffix', owner: 'marceloboeira' },
     { name: 'awesome-macosx-dev-tools', owner: 'marceloboeira' },
