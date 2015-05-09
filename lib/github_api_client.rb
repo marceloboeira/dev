@@ -69,7 +69,7 @@ def sources
     { name: 'marceloboeira.github.io', owner: 'marceloboeira' },
     { name: 'blog', owner: 'marceloboeira' },
     { name: 'logisim-7-segment-display-driver', owner: 'marceloboeira' },
-    { name: 'euler-challenges', owner: 'marceloboeira' },
+    { name: 'project-euller', owner: 'marceloboeira' },
     { name: 'awesome-git-disciples', owner: 'marceloboeira' },
     { name: 'arnode', owner: 'marceloboeira' }
   ]
@@ -83,7 +83,7 @@ def forks
     { name: 'training-kit', owner: 'github'},
     { name: 'errbit', owner:'errbit' },  
     { name: 'loomio', owner:'loomio' },
-    { name: 'codetriage', owner:'codetriage' },  
+    { name: 'codetriage', owner:'codetriage' },
     { name: 'hackety-hack.com', owner: 'hacketyhack'},
     { name: 'free-for-dev', owner: 'ripienaar'},
     { name: 'newww', owner: 'npm'},
