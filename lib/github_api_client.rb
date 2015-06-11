@@ -70,7 +70,7 @@ def sources
     { name: 'marceloboeira.github.io', owner: 'marceloboeira' },
     { name: 'blog', owner: 'marceloboeira' },
     { name: 'logisim-7-segment-display-driver', owner: 'marceloboeira' },
-    { name: 'project-euller', owner: 'marceloboeira' },
+    { name: 'project-euler', owner: 'marceloboeira' },
     { name: 'awesome-git-disciples', owner: 'marceloboeira' },
     { name: 'arnode', owner: 'marceloboeira' }
   ]
