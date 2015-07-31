@@ -79,24 +79,25 @@ end
 
 def forks
   [
-    { name: 'catarse_pagarme', owner: 'catarse'},
-    { name: 'catarse', owner: 'catarse'},
-    { name: 'ruler', owner: 'pagarme'},
-    { name: 'training-kit', owner: 'github'},
+    { name:'rmagick', owner: 'rmagick' }
+    { name: 'catarse_pagarme', owner: 'catarse' },
+    { name: 'catarse', owner: 'catarse' },
+    { name: 'ruler', owner: 'pagarme' },
+    { name: 'training-kit', owner: 'github' },
     { name: 'errbit', owner:'errbit' },  
     { name: 'loomio', owner:'loomio' },
     { name: 'codetriage', owner:'codetriage' },
     { name: 'recaptcha', owner:'ambethia' },
-    { name: 'hackety-hack.com', owner: 'hacketyhack'},
-    { name: 'free-for-dev', owner: 'ripienaar'},
-    { name: 'newww', owner: 'npm'},
-    { name: 'maskedinput-rails', owner: 'caarlos0'},
-    { name: 'robomongo', owner: 'VBelozyorov'},
+    { name: 'hackety-hack.com', owner: 'hacketyhack' },
+    { name: 'free-for-dev', owner: 'ripienaar' },
+    { name: 'newww', owner: 'npm' },
+    { name: 'maskedinput-rails', owner: 'caarlos0' },
+    { name: 'robomongo', owner: 'VBelozyorov' },
     { name: 'MEANS', owner:'SharePointOscar' },
-    { name: 'node-gravatar', owner: 'arnabc'},
-    { name: 'sails-docs', owner: 'balderdashy'},
-    { name: 'sails-docs', owner: 'SailsBR'},
-    { name: 'we', owner: 'wejs'}
+    { name: 'node-gravatar', owner: 'arnabc' },
+    { name: 'sails-docs', owner: 'balderdashy' },
+    { name: 'sails-docs', owner: 'SailsBR' },
+    { name: 'we', owner: 'wejs' }
   ]
 end
 
