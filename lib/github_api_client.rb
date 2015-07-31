@@ -79,7 +79,7 @@ end
 
 def forks
   [
-    { name:'rmagick', owner: 'rmagick' }
+    { name:'rmagick', owner: 'rmagick' },
     { name: 'catarse_pagarme', owner: 'catarse' },
     { name: 'catarse', owner: 'catarse' },
     { name: 'ruler', owner: 'pagarme' },
