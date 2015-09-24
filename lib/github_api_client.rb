@@ -72,14 +72,14 @@ def sources
     { name: 'blog', owner: 'marceloboeira' },
     { name: 'logisim-7-segment-display-driver', owner: 'marceloboeira' },
     { name: 'project-euler', owner: 'marceloboeira' },
-    { name: 'awesome-git-disciples', owner: 'marceloboeira' },
     { name: 'arnode', owner: 'marceloboeira' }
   ]
 end
 
 def forks
   [
-    { name:'rmagick', owner: 'rmagick' },
+    { name: 'rspec-nc', owner: 'twe4ked' },
+    { name: 'rmagick', owner: 'rmagick' },
     { name: 'catarse_pagarme', owner: 'catarse' },
     { name: 'catarse', owner: 'catarse' },
     { name: 'ruler', owner: 'pagarme' },
