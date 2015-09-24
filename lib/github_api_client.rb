@@ -59,13 +59,13 @@ end
 
 def sources
   [
-    { name: 'core', owner: 'freaktags' },
+    { name: 'freak_tags', owner: 'marceloboeira' },
     { name: 'blew', owner: 'marceloboeira' },
     { name: 'blew-cli', owner: 'marceloboeira' },
     { name: 'satriani', owner: 'marceloboeira' },
     { name: 'alpha-id', owner: 'marceloboeira' }, 
     { name: 'fish', owner: 'marceloboeira' },
-    { name: 'core', owner: 'spreadblood' },
+    { name: 'spread_blood', owner: 'marceloboeira' },
     { name: 'jquery-number-suffix', owner: 'marceloboeira' },
     { name: 'awesome-macosx-dev-tools', owner: 'marceloboeira' },
     { name: 'marceloboeira.github.io', owner: 'marceloboeira' },
