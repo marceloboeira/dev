@@ -60,17 +60,17 @@ end
 def sources
   [
     { name: 'freak_tags', owner: 'marceloboeira' },
-    { name: 'blew', owner: 'marceloboeira' },
-    { name: 'blew-cli', owner: 'marceloboeira' },
-    { name: 'satriani', owner: 'marceloboeira' },
-    { name: 'alpha-id', owner: 'marceloboeira' }, 
-    { name: 'fish', owner: 'marceloboeira' },
     { name: 'spread_blood', owner: 'marceloboeira' },
+    { name: 'blew', owner: 'marceloboeira' },
+    { name: 'fish', owner: 'marceloboeira' },
+    { name: 'blew-cli', owner: 'marceloboeira' },
+    { name: 'logisim-7-segment-display-driver', owner: 'marceloboeira' },
+    { name: 'satriani', owner: 'marceloboeira' },
+    { name: 'alpha-id', owner: 'marceloboeira' },
     { name: 'jquery-number-suffix', owner: 'marceloboeira' },
     { name: 'awesome-macosx-dev-tools', owner: 'marceloboeira' },
     { name: 'marceloboeira.github.io', owner: 'marceloboeira' },
     { name: 'blog', owner: 'marceloboeira' },
-    { name: 'logisim-7-segment-display-driver', owner: 'marceloboeira' },
     { name: 'project-euler', owner: 'marceloboeira' },
     { name: 'arnode', owner: 'marceloboeira' }
   ]
@@ -80,6 +80,7 @@ def forks
   [
     { name: 'rspec-nc', owner: 'twe4ked' },
     { name: 'rmagick', owner: 'rmagick' },
+    { name: 'grape-middleware-logger', owner: 'ridiculous' },
     { name: 'catarse_pagarme', owner: 'catarse' },
     { name: 'catarse', owner: 'catarse' },
     { name: 'ruler', owner: 'pagarme' },
