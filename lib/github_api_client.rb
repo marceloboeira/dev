@@ -79,13 +79,15 @@ end
 def forks
   [
     { name: 'rspec-nc', owner: 'twe4ked' },
+    { name: 'active_shipping', owner: 'Shopify' },
+    { name: 'redis-rails', owner: 'redis-store' },
     { name: 'rmagick', owner: 'rmagick' },
     { name: 'grape-middleware-logger', owner: 'ridiculous' },
     { name: 'catarse_pagarme', owner: 'catarse' },
     { name: 'catarse', owner: 'catarse' },
     { name: 'ruler', owner: 'pagarme' },
     { name: 'training-kit', owner: 'github' },
-    { name: 'errbit', owner:'errbit' },  
+    { name: 'errbit', owner:'errbit' },
     { name: 'loomio', owner:'loomio' },
     { name: 'codetriage', owner:'codetriage' },
     { name: 'recaptcha', owner:'ambethia' },
