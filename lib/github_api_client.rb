@@ -78,13 +78,16 @@ end
 
 def forks
   [
+    { name: 'grape-middleware-logger', owner: 'ridiculous' },
     { name: 'rspec-nc', owner: 'twe4ked' },
     { name: 'active_shipping', owner: 'Shopify' },
     { name: 'redis-rails', owner: 'redis-store' },
     { name: 'rmagick', owner: 'rmagick' },
-    { name: 'grape-middleware-logger', owner: 'ridiculous' },
+    { name: 'homebrew', owner: 'homebrew' },
     { name: 'catarse_pagarme', owner: 'catarse' },
     { name: 'catarse', owner: 'catarse' },
+    { name: 'crystal-icr', owner: 'greyblake' },
+    { name: 'zas', owner: 'juanibiapina' },
     { name: 'ruler', owner: 'pagarme' },
     { name: 'training-kit', owner: 'github' },
     { name: 'errbit', owner:'errbit' },
@@ -100,6 +103,8 @@ def forks
     { name: 'node-gravatar', owner: 'arnabc' },
     { name: 'sails-docs', owner: 'balderdashy' },
     { name: 'sails-docs', owner: 'SailsBR' },
+    { name: 'dots', owner: 'jv' },
+    { name: 'vim-files', owner: 'jv' },
     { name: 'we', owner: 'wejs' }
   ]
 end
