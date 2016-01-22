@@ -29,7 +29,7 @@ def connection
 end
 
 def new_connection
-  connection = Faraday.new 'https://api.github.com/' do |c|
+  Faraday.new 'https://api.github.com/' do |c|
     c.use Faraday::Adapter::NetHttp
   end.tap do |c|
     c.headers[:user_agent] = "GitHub API client"
@@ -115,7 +115,7 @@ def load_repo(repo, login, is_fork=false)
     r.title = is_fork ? "#{repo[:owner]}/#{repo[:name]}" : repo[:name]
     r.description = repo.fetch(:description, r.description)[0..99]
     unless r.homepage.nil? || r.homepage.empty?
-      r.description.gsub! /^(.*?)(\S*?\s*?\S*?\s*?\S*?)$/, %Q(\\1<a href="#{r.homepage}">\\2</a>)
+      r.description.gsub!(/^(.*?)(\S*?\s*?\S*?\s*?\S*?)$/, %Q(\\1<a href="#{r.homepage}">\\2</a>))
     end
     r.description = "&nbsp;" if r.description.empty?
     r.committer = repo.fetch :committer, login
