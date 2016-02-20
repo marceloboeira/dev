@@ -59,8 +59,11 @@ end
 
 def sources
   [
-    { name: 'freak_tags', owner: 'marceloboeira' },
+    { name: 'm3u8.cr', owner: 'marceloboeira' },
+    { name: 'satriani', owner: 'marceloboeira' },
+    { name: 'spec2-nc.cr', owner: 'marceloboeira' },
     { name: 'spread_blood', owner: 'marceloboeira' },
+    { name: 'freak_tags', owner: 'marceloboeira' },
     { name: 'blew', owner: 'marceloboeira' },
     { name: 'fish', owner: 'marceloboeira' },
     { name: 'blew-cli', owner: 'marceloboeira' },
@@ -78,6 +81,10 @@ end
 
 def forks
   [
+    { name: 'crystal', owner: 'manastech' },
+    { name: 'spec2.cr', owner: 'waterlink' },
+    { name: 'mocks.cr', owner: 'waterlink' },
+    { name: 'spec2-mocks.cr', owner: 'waterlink' },
     { name: 'grape-middleware-logger', owner: 'ridiculous' },
     { name: 'rspec-nc', owner: 'twe4ked' },
     { name: 'active_shipping', owner: 'Shopify' },
