@@ -62,16 +62,14 @@ def sources
     { name: 'm3u8.cr', owner: 'marceloboeira' },
     { name: 'satriani', owner: 'marceloboeira' },
     { name: 'spec2-nc.cr', owner: 'marceloboeira' },
-    { name: 'spread_blood', owner: 'marceloboeira' },
     { name: 'freak_tags', owner: 'marceloboeira' },
+    { name: 'spread_blood', owner: 'marceloboeira' },
     { name: 'blew', owner: 'marceloboeira' },
     { name: 'fish', owner: 'marceloboeira' },
     { name: 'blew-cli', owner: 'marceloboeira' },
     { name: 'logisim-7-segment-display-driver', owner: 'marceloboeira' },
-    { name: 'satriani', owner: 'marceloboeira' },
-    { name: 'alpha-id', owner: 'marceloboeira' },
     { name: 'jquery-number-suffix', owner: 'marceloboeira' },
-    { name: 'awesome-macosx-dev-tools', owner: 'marceloboeira' },
+    { name: 'awesome-osx', owner: 'marceloboeira' },
     { name: 'marceloboeira.github.io', owner: 'marceloboeira' },
     { name: 'blog', owner: 'marceloboeira' },
     { name: 'project-euler', owner: 'marceloboeira' },
@@ -110,9 +108,8 @@ def forks
     { name: 'node-gravatar', owner: 'arnabc' },
     { name: 'sails-docs', owner: 'balderdashy' },
     { name: 'sails-docs', owner: 'SailsBR' },
-    { name: 'dots', owner: 'jv' },
-    { name: 'vim-files', owner: 'jv' },
-    { name: 'we', owner: 'wejs' }
+    { name: 'dots', owner: 'jvortmann' },
+    { name: 'vim-files', owner: 'jvortmann' },
   ]
 end
 
