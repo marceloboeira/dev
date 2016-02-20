@@ -50,11 +50,11 @@ def load_user(login)
 end
 
 def load_sources(login)
-  sources.map{|source| load_repo source, login}
+  sources.map{ |source| load_repo source, login }
 end
 
 def load_forks(login)
-  forks.map{|source| load_repo source, login, true}
+  forks.map{ |source| load_repo source, login, true }
 end
 
 def sources
