@@ -59,7 +59,9 @@ end
 
 def sources
   [
+    { name: 'spotify.cr', owner: 'marceloboeira' },
     { name: 'm3u8.cr', owner: 'marceloboeira' },
+    { name: 'pdf.cr', owner: 'marceloboeira' },
     { name: 'satriani', owner: 'marceloboeira' },
     { name: 'spec2-nc.cr', owner: 'marceloboeira' },
     { name: 'freak_tags', owner: 'marceloboeira' },
@@ -79,7 +81,7 @@ end
 
 def forks
   [
-    { name: 'crystal', owner: 'manastech' },
+    { name: 'crystal', owner: 'crystal-lang' },
     { name: 'spec2.cr', owner: 'waterlink' },
     { name: 'mocks.cr', owner: 'waterlink' },
     { name: 'spec2-mocks.cr', owner: 'waterlink' },
